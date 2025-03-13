@@ -8,7 +8,6 @@ import {DatePipe, NgClass, NgStyle, TitleCasePipe, UpperCasePipe} from "@angular
   imports: [
     NgStyle,
     NgClass,
-    TitleCasePipe,
     UpperCasePipe,
     DatePipe
   ],
@@ -23,7 +22,8 @@ export class FaceSnapComponent implements OnInit {
 
 
   ngOnInit() {
-
+    // TODO document why this method 'ngOnInit' is empty
+  
   }
 
   onAddSnap(): void {
